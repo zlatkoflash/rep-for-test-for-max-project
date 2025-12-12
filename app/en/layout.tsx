@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./../globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NextIntlClientProvider } from "next-intl";
+import { SearchProvider } from "../providers/SearchProvider";
+import './../../assets/css/Style.scss';
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -35,7 +37,9 @@ export default async function RootLayout({
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
                 <NextIntlClientProvider locale={locale}>
-                    {children}
+                    <SearchProvider>
+                        {children}
+                    </SearchProvider>
                 </NextIntlClientProvider>
             </body>
         </html>

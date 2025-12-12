@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     return [{ locale: 'en' }, { locale: 'fr' }];
 }*/
 
-export function generateStaticParams() {
+/*export function generateStaticParams() {
     // Return the specific locales your application supports
     // This tells Next.js how to handle the `[locale]` segment for static paths
     return [
         { locale: 'en' },
         { locale: 'fr' } // Add any other locales you support
     ];
-}
+}*/
 
 export default async function RootLayout({ children, params }: { children: React.ReactNode, params: Promise<{ locale: string }> }) {
     const { locale } = await params;

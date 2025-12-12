@@ -1,0 +1,12 @@
+{
+    "SearchDemo": {
+        "title": "Welcome to my app! English",
+        "searchLabel": "Type to search",
+        "name": "Name",
+        "username": "Username",
+        "email": "Email",
+        "loadingDataMessage": "Loading data...",
+        "loadedDataMessage": "Data loaded successfully!",
+        "errorDataMessage": "Error loading data!"
+    }
+}

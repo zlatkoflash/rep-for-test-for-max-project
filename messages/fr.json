@@ -1,0 +1,12 @@
+{
+    "SearchDemo": {
+        "title": "Bienvenue dans mon application ! Français",
+        "searchLabel": "Tapez pour rechercher",
+        "name": "Nom",
+        "username": "Nom d'utilisateur",
+        "email": "E-mail",
+        "loadingDataMessage": "Chargement des données...",
+        "loadedDataMessage": "Données chargées avec succès!",
+        "errorDataMessage": "Erreur lors du chargement des données!"
+    }
+}

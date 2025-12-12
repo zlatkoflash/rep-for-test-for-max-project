@@ -21,4 +21,5 @@ This README provides the essential commands to install and run your Next.js appl
 
 
 The test-project include libraries: next-intl(i18n), react-bootstrap, the elements are bootstrap, only the spinner is custom css.
-      
+
+Vercel link: https://rep-for-test-for-max-project.vercel.app/en
